@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Date personale</title>
+</head>
+
+<body bgcolor="CCFFF">
+    <h2>Completaţi datele personale în formular</h2>
+    <font size=3 face="arial">
+        <form action="" method=POST><b><i>Nume şi prenume:</i></b> <input name="nume" size=50>
+            <p><b><i>Adresa:</i></b><textarea name="adresa" rows=4 cols=60 wrap="soft"></textarea>
+            <p><b><i>E-mail:</i></b><br><input type=text name="email" size=50>
+            <p><b><i>Profilul:</i></b><br><input type=radio name="studii" value="mate-info"
+                    checked>Matematică-informatică<input type=radio name="studii" value="st-nat">Ştiinţe ale
+                naturii<br><input type=radio name="studii" value="st-soc">Ştiinţe sociale<input type=radioname="studii"
+                    value="filog">Filologie
+            <p><b><i>Limbi străine cunoscute:</i></b> <br><input type=checkbox name="limba"
+                    value="engleza">Engleza<input type=checkbox name="limba" value="franceza">Franceza<input
+                    type=checkbox name="limba" value="germana">Germana<br><input type=checkbox name="limba"
+                    value="italiana">Italiana<input type=checkbox name="limba" value="spaniola">Spaniola
+                <input type=checkbox name="limba" value="rusa">Rusa
+            <p><b><i>Alege opţionalul preferat:</i></b><select name="opt">
+                    <optionvalue="web">Pagini web<option value="retele">Reţele de calcuatoare
+                        <option value="imagini">Prelucrarea imaginii(GIMP)
+                </select>
+                <hr><b><i>Vreau să mă înscriu la curs:</i></b><br><input type=submit name="tip"
+                    value="e-mail"><br><br><input type=reset value="Resetează">
+        </form>
+</body>
+
+</html>
